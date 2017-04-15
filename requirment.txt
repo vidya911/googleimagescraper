@@ -1,0 +1,4 @@
+beautifulsoup4==4.3.2
+selenium==2.45.0
+PyVirtualDisplay==0.1.5
+#sudo apt-get install Xvfb
