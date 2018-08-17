@@ -13,9 +13,7 @@ display.start()
 
 def visit_walk_google(search_string):
     """
-
     Open google.com and search for funny images
-
     """
 
     driver = webdriver.Firefox()
@@ -31,7 +29,6 @@ def visit_walk_google(search_string):
 def get_inside_image_search_page(driver, search_string):
     """
     Get all search link from the main search page with desired images
-
     """
 
     # driver.find_element_by_xpath('/html/body/div[1]/div[5]/div[4]/div[3]/div/div/div[1]/div/div/div[2]/a').click()
@@ -57,11 +54,6 @@ def get_inside_image_search_page(driver, search_string):
 
 
 def get_all_images_links(all_image_soup):
-    """
-
-
-    """
-
     image_urls = []
     for each_image in all_image_soup:
         try:
